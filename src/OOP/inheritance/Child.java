@@ -1,5 +1,7 @@
 package OOP.inheritance;
 
+import OOP.accessModifiers.A;
+
 public class Child extends Box{
     int strength;
     public Child() {
@@ -45,7 +47,6 @@ Overridden Method Access:
 
 To call a method from the parent class that has been overridden in the subclass.
    */
-
 
 
     }
