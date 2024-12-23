@@ -25,3 +25,24 @@ public class subClass extends A {
 
 
 }
+
+/* Anothere important example regarding acessing the protected Member */
+class miniSubClass extends subClass{
+    public miniSubClass(int num , String name){
+        super(num,name);
+    }
+
+    public static void main(String[] args) {
+        miniSubClass obj = new miniSubClass(20,"Kolaveri");
+        String n = obj.name;
+        /* 1) Protected Member can also be accessed sub sub class of the subclass of package
+        * 2) here miniSubClass extends the subClass which is extending the parent class A
+        * 3) So as miniSubClass extends subClass it also has the access to the protected member name
+        * 4) In above example you can see name can be accessed
+        * 5) SO inshort it should be subClass of parent class or subClass of itself
+        * where you can access the protected member
+        * */
+
+
+    }
+}
