@@ -1,6 +1,12 @@
 package OOP.inheritance;
 
 public class Box {
+    /* 1) if a class is declared as final in Java,
+     all of its methods are automatically final, but its variables are not
+     2) If any method inside the class is final then that method cannot be modified by any other
+     class
+     3) If any varaible is declared as final then that variable cannot be re-initialized
+      */
     double l;
     double h;
     double w;
@@ -28,7 +34,9 @@ public class Box {
         this.h = imp.h;
         this.w = imp.w;
     }
-
+   public static void greeting(){
+       System.out.println("Hello Mayur you are great!!");
+   }
     public void information() {
         System.out.println("Running The Box");
     }

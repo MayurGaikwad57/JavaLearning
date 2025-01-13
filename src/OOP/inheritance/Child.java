@@ -7,6 +7,12 @@ public class Child extends Box{
     public Child() {
         this.strength = 1;
     }
+
+    // Overriding static method
+    public static void greeting(){
+        System.out.println("Hello Anil you are great!!");
+    }
+
     Child(double side, int strength) {
         super(side);
         this.strength =  strength;

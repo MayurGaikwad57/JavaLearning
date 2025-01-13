@@ -1,6 +1,11 @@
 package Methods;
 
 public class MethodOverLoading {
+    /* Method Overloading is a Compile time polymorphism
+    . In method overloading, more than one method shares the same method name with
+     a different signature in the class. In method overloading,
+      the return type can or can not be the same, but we have to change the parameter because,
+       in java, we can not achieve method overloading by changing only the return type of the method            */
     public static void main(String[] args) {
         // Method(function) Overloading in java
         fun(5,10); // will call function which has 2 parameters

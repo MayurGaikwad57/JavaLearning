@@ -67,7 +67,7 @@ If you try to access fields directly, they are resolved based on the reference t
 not the object type.
 
 Box a = new Child(10,5,11,25);
-The reference type Box tells the compiler that a can only access members of the Box class.
+//The reference type Box tells the compiler that a can only access members of the Box class.
 
 For example: If Child had any additional methods or fields,
 you wouldn't be able to access them with a.
@@ -88,6 +88,14 @@ you wouldn't be able to access them with a.
    Child newRef = new Child(10,20,30,100);
 //        System.out.println(newRef.strength);
 
+      Child obj = new Child();
+      // greeting is a static method and has no dependency on object
+      Box.greeting();
+      /* Static methods cannot be overridden
+         they are called with the class name and are independent of objects
+         and overriding depends on the object
+         hence , there is no point in overriding them
+       NOTE--> Static Methods can be inherited , but cannot be overridden                     */
 
 
 
