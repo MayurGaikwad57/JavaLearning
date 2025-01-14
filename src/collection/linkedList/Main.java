@@ -1,4 +1,4 @@
-package linkedList;
+package collection.linkedList;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -17,7 +17,7 @@ public class Main {
         linkedList.removeFirst(); // removes the first element from the list
         linkedList.remove(3); // the 3rd index element is removed
 
-//        System.out.println("The Entire Linked List is:"+linkedList);
+//        System.out.println("The Entire Linked List is:"+collection.linkedList);
         // we can either add elements in the above way or anothere way is possible
         LinkedList<String> list = new LinkedList<>(Arrays.asList("Lion","Giraffe","Dog","kingKong"));
         LinkedList<String> removeList = new LinkedList<>(Arrays.asList("Lion","Dog"));

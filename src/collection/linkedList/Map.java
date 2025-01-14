@@ -1,5 +1,6 @@
+package collection.linkedList;
+
 import java.util.HashMap;
-import java.util.Set;
 
 public class Map {
     public static void main(String[] args) {
