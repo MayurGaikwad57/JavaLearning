@@ -133,12 +133,12 @@ If instance is null (i.e., no instance exists), it creates the instance.
 If instance already exists, it simply returns the same instance.
 This is called lazy initialization because the instance is created only when it is needed.
 
-Main Class
+basicJava.Main Class
 java
 Copy code
 package OOP.Static.singelton;
 
-public class Main {
+public class basicJava.Main {
     public static void main(String[] args) {
         // Access the Singleton instance using the getInstance() method
         Singleton obj1 = Singleton.getInstance();

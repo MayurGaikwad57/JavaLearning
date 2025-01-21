@@ -34,7 +34,7 @@ public class Main {
 //        greeting();
         //Error is beacuse you are trying to access the non-static method inside static method
         // Throws error as the non-static method greeting() cannot be accessed from a static method
-        // To access the non static method greeting() we will create a instance of Main Class
+        // To access the non static method greeting() we will create a instance of basicJava.Main Class
         Main obj = new Main();
         obj.greeting(); // This can be accessed now
     }

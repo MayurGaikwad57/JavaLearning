@@ -1,5 +1,5 @@
-// In java class name is same as fileName
-// if file name is Main.java then class name will also be Main
+package basicJava;// In java class name is same as fileName
+// if file name is basicJava.Main.java then class name will also be basicJava.Main
 // The main class in java in public so that any other file can access the main class
 // In Java Classes and Objects are important Things
 

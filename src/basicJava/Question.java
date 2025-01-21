@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package basicJava;
 
 public class Question {
     public static void main(String[] args) {

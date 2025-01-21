@@ -4,7 +4,7 @@ public class Scope {
     public static void main(String[] args) {
         // Understanding scope in Java
 
-        // Main scope (variables declared here can be accessed anywhere in the main method)
+        // basicJava.Main scope (variables declared here can be accessed anywhere in the main method)
         int a = 5;
         int b = 10;
         String name = "Mayur";

@@ -31,7 +31,7 @@ This is an excellent question about inheritance and polymorphism in Java.
 You are observing behavior that may appear unusual at first,
 but it makes complete sense once you understand reference types and object instantiation.
 
-The Code in Question
+The Code in basicJava.Question
 java
 Copy code
 Box a = new Child(10,5,11,25);

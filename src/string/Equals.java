@@ -1,3 +1,5 @@
+package string;
+
 public class Equals {
     int number;
     public Equals(int number){

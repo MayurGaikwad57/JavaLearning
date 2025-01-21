@@ -1,3 +1,5 @@
+package basicJava;
+
 import java.util.Scanner;
 
 public class TypeCasting {

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package basicJava;
 
 public class Primitives {
     // All about data types in java
