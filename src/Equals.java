@@ -59,5 +59,34 @@ public class Equals {
         Equals obj1 = new Equals(35);
         System.out.println(obj.equals(obj1));
 
+        /*                String Methods in java
+        * 1) All String methods create a new string
+        * 2) Strings are immutable in java
+        * */
+        // substring method to create the substring,
+        String newString = "You are Legend";
+        // String latest = newString.substring(4)
+        // starts from 4 and goes till length-1;
+        String latest = newString.substring(4,10);
+        // 10 here is not included , it is excluded meaning (4,10]
+        System.out.println(latest);
+
+        String trimString = "   king kong";
+        System.out.println( trimString.trim());
+        System.out.println(trimString); //main string is unaffected
+
+        // replace method in string
+//        String wantReplace = "Anil Poul Anil Anil Anil";
+//        String getReplacement = wantReplace.replace("Anil","Jon Cena");
+        /*Replacement is case sensitive so make sure to provide proper strings*/
+//        System.out.println(getReplacement);
+// similar like this not only word but a letter can also be replaced
+        String replace = "Pawar Prasad";
+        String power = replace.replace("r","a");
+        System.out.println(power);
+
+        String str = "    ";
+        System.out.println(str.isEmpty());
+        System.out.println(str.isBlank());
     }
 }
